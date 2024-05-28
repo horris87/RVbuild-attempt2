@@ -29,6 +29,7 @@ build-mode = "both"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 arch = "both"
+excluded-patches = "'Custom branding icon YouTube Music' 'Custom branding name YouTube Music'"
 
 [YouTube-Extended]
 app-name = "YouTube"
@@ -39,6 +40,8 @@ rv-brand = "ReVanced Extended"
 build-mode = "both"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
+excluded-patches = "'Custom branding icon YouTube' 'Custom branding name YouTube'"
+included-patches = "'Add splash animation' 'MaterialYou'"
 
 [Twitter]
 build-mode = "apk"
@@ -57,11 +60,13 @@ integrations-source = "inotia00/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.reddit.frontpage"
+build-mode = "both"
 
 [Messenger]
 enabled = false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/messenger/"
 arch = "arm64-v8a"
+build-mode = "both"
 
 [Spotify]
 enabled = false
